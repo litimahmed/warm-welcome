@@ -34,7 +34,7 @@ export const Header = () => {
     >
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
-          <img src={process.env.PUBLIC_URL + "averix_logo.png.png"} alt="My application logo" />
+          <img src="/averix_logo.png" alt="Averix logo" />
 
 
         {/* Desktop Navigation */}
