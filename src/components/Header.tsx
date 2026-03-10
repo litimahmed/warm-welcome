@@ -34,7 +34,7 @@ export const Header = () => {
     >
       <div className="container-custom flex items-center justify-between">
         {/* Logo */}
-          <img src="/averix_logo.png" alt="Averix logo" />
+          <img src="/averix_logo.png" alt="Averix logo" className="h-10 w-auto" />
 
 
         {/* Desktop Navigation */}
