@@ -1,4 +1,4 @@
-import { Globe, ShoppingCart, Settings, ArrowUpRight, Sparkles, TrendingUp, ChevronDown, ChevronUp } from "lucide-react";
+import { Globe, Smartphone, Monitor, Bot, Figma, ArrowUpRight, ChevronDown, ChevronUp } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -11,29 +11,29 @@ export const Services = () => {
 
   const services = [
     {
-      titleKey: "services.items.digitalMarketing.title",
-      descKey: "services.items.digitalMarketing.description",
+      titleKey: "services.items.webDev.title",
+      descKey: "services.items.webDev.description",
       icon: Globe,
     },
     {
-      titleKey: "services.items.ecommerce.title",
-      descKey: "services.items.ecommerce.description",
-      icon: ShoppingCart,
+      titleKey: "services.items.mobileDev.title",
+      descKey: "services.items.mobileDev.description",
+      icon: Smartphone,
     },
     {
-      titleKey: "services.items.branding.title",
-      descKey: "services.items.branding.description",
-      icon: Sparkles,
+      titleKey: "services.items.desktopDev.title",
+      descKey: "services.items.desktopDev.description",
+      icon: Monitor,
     },
     {
-      titleKey: "services.items.webDesign.title",
-      descKey: "services.items.webDesign.description",
-      icon: Settings,
+      titleKey: "services.items.automation.title",
+      descKey: "services.items.automation.description",
+      icon: Bot,
     },
     {
-      titleKey: "services.items.seo.title",
-      descKey: "services.items.seo.description",
-      icon: TrendingUp,
+      titleKey: "services.items.uiuxDesign.title",
+      descKey: "services.items.uiuxDesign.description",
+      icon: Figma,
     },
   ];
 

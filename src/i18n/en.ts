@@ -30,25 +30,25 @@ export const en = {
     showMore: "SHOW MORE",
     showLess: "SHOW LESS",
     items: {
-      digitalMarketing: {
-        title: "DIGITAL MARKETING",
-        description: "Data-driven campaigns that amplify your reach. From SEO to social media, we craft strategies that convert visitors into loyal customers and maximize your ROI.",
+      webDev: {
+        title: "WEB DEVELOPMENT",
+        description: "We build modern, responsive websites and web applications using cutting-edge technologies. From landing pages to complex platforms, we deliver fast, scalable solutions.",
       },
-      ecommerce: {
-        title: "E-COMMERCE SOLUTIONS",
-        description: "Seamless shopping experiences that drive sales. We build high-converting online stores with intuitive UX, secure payments, and scalable architecture.",
+      mobileDev: {
+        title: "MOBILE DEVELOPMENT",
+        description: "Native and cross-platform mobile apps for iOS and Android. We create smooth, performant mobile experiences that your users will love.",
       },
-      branding: {
-        title: "BRAND IDENTITY",
-        description: "Memorable brands that stand out. We develop comprehensive visual identities, from logo design to brand guidelines, that tell your unique story.",
+      desktopDev: {
+        title: "DESKTOP APPS DEVELOPMENT",
+        description: "Powerful desktop applications for Windows, macOS, and Linux. We build robust software solutions tailored to your business workflows and needs.",
       },
-      webDesign: {
-        title: "WEB DESIGN & DEV",
-        description: "Stunning websites that perform. We create responsive, fast-loading sites with cutting-edge technology and pixel-perfect designs that engage users.",
+      automation: {
+        title: "AUTOMATION SCRIPTS & BOTS",
+        description: "Custom automation tools and bots to streamline your operations. From data scraping to workflow automation, we help you save time and reduce manual work.",
       },
-      seo: {
-        title: "SEO & ANALYTICS",
-        description: "Visibility that matters. Our SEO experts optimize your digital presence to rank higher, attract organic traffic, and provide actionable insights.",
+      uiuxDesign: {
+        title: "FIGMA UI/UX DESIGN",
+        description: "Beautiful, user-centered designs crafted in Figma. We create intuitive interfaces with detailed prototypes, design systems, and seamless user experiences.",
       },
     },
   },
