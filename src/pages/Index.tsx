@@ -10,8 +10,21 @@ import { Partners } from "@/components/Partners";
 import { Packages } from "@/components/Packages";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
+import { IndexSkeleton } from "@/components/IndexSkeleton";
+import { useState, useEffect } from "react";
 
 const Index = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 800);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <IndexSkeleton />;
+  }
+
   return (
     <div className="min-h-screen">
       <Header />
